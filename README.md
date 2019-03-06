@@ -140,6 +140,23 @@ Untuk melakukan *maintenance*, *login* sebagai *admin* lalu masuk ke menu *admin
 *User* yang tidak *login* hanya bisa membaca forum dan tidak bisa membuat postingan baru maupun komentar di suatu postingan. Untuk itu kita coba *login* dengan akun admin yang sudah kita buat tadi.
 ![Login](screenshots/9_login.png)
 
+Setelah login kita bisa membuat *thread* baru dengan masuk ke forum yang kita inginkan lalu klik *Post new topic*.
+![Logged In](screenshots/11_loggedin.png)
+![Inside a Forum](screenshots/11b_forum.png)
+
+Setelah itu masukkan *subject* dan *message* dari *thread* yang ingin kita buat.
+![Create a New Thread](screenshots/12_postnewthread.png)
+
+Jika tidak ada masalah, *thread* kita akan muncul di forum.
+![Thread Created](screenshots/13_newthread.png)
+
+Untuk membalas suatu *thread*, klik *Post reply* lalu masukkan *message* yang ingin kalian tinggalkan.
+![Leave a Reply](screenshots/14_reply.png)
+
+Jika tidak ada masalah, *reply* kita akan muncul di *thread* yang kita *reply*.
+![Reply Posted](screenshots/15_replied.png)
+
+
 
 ## Pembahasan
 
