@@ -142,6 +142,8 @@ Untuk melakukan *maintenance*, *login* sebagai *admin* lalu masuk ke menu *admin
 
 Setelah login kita bisa membuat *thread* baru dengan masuk ke forum yang kita inginkan lalu klik *Post new topic*.
 ![Logged In](screenshots/11_loggedin.png)
+
+Misal kita masuk ke forum *test forum*.
 ![Inside a Forum](screenshots/11b_forum.png)
 
 Setelah itu masukkan *subject* dan *message* dari *thread* yang ingin kita buat.
@@ -155,7 +157,6 @@ Untuk membalas suatu *thread*, klik *Post reply* lalu masukkan *message* yang in
 
 Jika tidak ada masalah, *reply* kita akan muncul di *thread* yang kita *reply*.
 ![Reply Posted](screenshots/15_replied.png)
-
 
 
 ## Pembahasan
