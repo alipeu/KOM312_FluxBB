@@ -1,6 +1,6 @@
 # FluxBB
 
-![Logo](http://fluxbb.org/files/images/logo_large.png "Logo" =10x)
+<img src="http://fluxbb.org/files/images/logo_large.png" alt="Logo" width="20"/>
 
 ## Sekilas Tentang
 
