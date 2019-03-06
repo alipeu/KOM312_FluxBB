@@ -81,7 +81,7 @@ Sebelum meng-*install*, [buat VM](https://github.com/auriza/komdat-lab/blob/mast
   ```
 
 9. Buka laman <http://localhost:8888/fluxbb> untuk melanjutkan proses instalasi **FluxBB**.
-  ![1](../screenshots/1_intro.png)
+  ![Halaman Awal Instalasi](screenshots/1_intro.png)
   
   
 10. Terakhir kita hapus file instalasi untuk alasan keamanan.
