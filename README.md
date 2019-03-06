@@ -101,6 +101,9 @@ Sebelum meng-*install*, [buat VM](https://github.com/auriza/komdat-lab/blob/mast
     - Jika tidak ada masalah, akan muncul pemberitahuan seperti di bawah ini yang menandakan bahwa **FluxBB** telah berhasil di-*install*.
   ![Forum Created](screenshots/7_installed.png)
   
+    - Kita sudah bisa mengakses halaman *index* dari forum yang kita buat.
+  ![Index Page](screenshots/8_front.png)
+  
 10. Terakhir kita hapus file instalasi untuk alasan keamanan.
   ```
   sudo rm -rf /var/www/html/fluxbb/install.php
@@ -116,7 +119,8 @@ Ada beberapa modifikasi yang dapat ditambahkan untuk **FluxBB**, yaitu [**Styles
 ### Styles
 **Styles** berfungsi untuk mengubah tampilan atau tema pada aplikasi forum kita, *package-package* untuk modifikasi **Styles** ini dapat diunduh dari [laman *repository* **FluxBB**](http://fluxbb.org/resources/styles/).
 
-Untuk meng-*install*
+Untuk meng-*install* **Styles** cukup unduh *file* `css` yang diinginkan lalu pindahkan ke folder `/var/www/html/fluxbb/style
+`.
 
 ### Language Packs
 **Language Packs** berfungsi untuk menambah opsi bahasa yang bisa digunakan pada aplikasi forum kita, **Language Packs** dapat diunduh dari [laman *repository* **FluxBB**](http://fluxbb.org/resources/translations/).
@@ -125,24 +129,16 @@ Untuk meng-*install*
 **Plugins** di **FluxBB** hanya bisa menambahkan fitur untuk *administrator* (dan *moderator* untuk beberapa **Plugins**) saja, **Plugins** berguna untuk menyederhanakan *task administrator* atau menambah fitur yang tidak bisa disediakan oleh **FluxBB** (karena filosofinya). **Plugins** dapat diunduh dari [laman *repository* **FluxBB**](https://github.com/fluxbb/plugins) atau bisa juga kita buat sendiri, *template*-nya dapat diakses di [laman *website* **FluxBB**](https://fluxbb.org/docs/v1.5/plugins). **Plugins** yang dapat digunakan oleh *administrator* diawali dengan `AP`, sedangkan yang dapat digunakan oleh *administrator* dan *moderator* diawali dengan `AMP`.
 
 
-##  Maintenance (opsional)
+##  Maintenance
 
-Setting tambahan untuk maintenance secara periodik, misalnya:
-- buat backup database tiap pekan
-- hapus direktori sampah tiap hari
-- dll
-
-
-## Otomatisasi (opsional)
-
-Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
+Untuk melakukan *maintenance*, *login* sebagai *admin* lalu masuk ke menu *administration* dan pilih sub-menu *maintenance*.
+![Maintenance Tools](screenshots/10_maintenance.png)
 
 
 ## Cara Pemakaian
 
-- Tampilan aplikasi web
-- Fungsi-fungsi utama
-- Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
+*User* yang tidak *login* hanya bisa membaca forum dan tidak bisa membuat postingan baru maupun komentar di suatu postingan. Untuk itu kita coba *login* dengan akun admin yang sudah kita buat tadi.
+![Login](screenshots/9_login.png)
 
 
 ## Pembahasan
