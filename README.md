@@ -1,6 +1,6 @@
 # FluxBB
 
-<img src="http://fluxbb.org/files/images/logo_large.png" alt="Logo" width="20"/>
+<img src="http://fluxbb.org/files/images/logo_large.png" alt="Logo" width="150"/>
 
 ## Sekilas Tentang
 
