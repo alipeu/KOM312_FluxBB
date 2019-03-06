@@ -1,6 +1,6 @@
 # FluxBB
 
-<center><img style="width: 100%; max-width: 40px;" src="http://fluxbb.org/files/images/logo_large.png"></center>
+<center><img style="width: 100%; max-width: 10px;" src="http://fluxbb.org/files/images/logo_large.png"></center>
 
 ## Sekilas Tentang
 
@@ -17,7 +17,7 @@
   - SQLite 2
 
 ### Langkah Instalasi
-Sebelum meng-*install*, (buat VM)[https://github.com/auriza/komdat-lab/blob/master/p01.md#membuat-vm-ubuntu-server] yang akan digunakan sebagai *server* dan lakukan (*setting port-forwarding*)[https://github.com/auriza/komdat-lab/blob/master/p01.md#setting-port-forwarding-vm] untuk VM tersebut.
+Sebelum meng-*install*, [buat VM](https://github.com/auriza/komdat-lab/blob/master/p01.md#membuat-vm-ubuntu-server) yang akan digunakan sebagai *server* dan lakukan [*setting port-forwarding*](https://github.com/auriza/komdat-lab/blob/master/p01.md#setting-port-forwarding-vm) untuk VM tersebut.
 
 1. *Login* ke *server* dengan menggunakan `ssh`, pengguna Windows dapat menggunakan aplikasi [PuTTY](http://www.putty.org/) sebagai alternatif.
   ```
@@ -76,21 +76,21 @@ Sebelum meng-*install*, (buat VM)[https://github.com/auriza/komdat-lab/blob/mast
 
 ## Konfigurasi
 
-Untuk meningkatkan kinerja aplikasi, kita dapat melakukan hal-hal berikut seperti yang tercantum di (laman pengembangan **FluxBB**)[https://github.com/fluxbb/fluxbb#recommendations].
+Untuk meningkatkan kinerja aplikasi, kita dapat melakukan hal-hal berikut seperti yang tercantum di [laman pengembangan **FluxBB**](https://github.com/fluxbb/fluxbb#recommendations).
 - Gunakan PHP *accelerator* seperti **APC** atau **XCache** untuk mempercepat waktu eksekusi kode `PHP`.
 - Pastikan PHP sudah ter-*install* modul **zlib** agar **FluxBB** dapat membuat output `gzip`.
 
-Ada beberapa modifikasi yang dapat ditambahkan untuk **FluxBB**, yaitu (**Styles**)[#styles], (**Language Packs**)[#language-packs], dan (**Plugins**)[#plugins].
+Ada beberapa modifikasi yang dapat ditambahkan untuk **FluxBB**, yaitu [**Styles**](#styles), [**Language Packs**](#language-packs), dan [**Plugins**](#plugins).
 ### Styles
-**Styles** berfungsi untuk mengubah tampilan atau tema pada aplikasi forum kita, *package-package* untuk modifikasi **Styles** ini dapat diunduh dari (laman *repository* **FluxBB**)[http://fluxbb.org/resources/styles/].
+**Styles** berfungsi untuk mengubah tampilan atau tema pada aplikasi forum kita, *package-package* untuk modifikasi **Styles** ini dapat diunduh dari [laman *repository* **FluxBB**](http://fluxbb.org/resources/styles/).
 
 Untuk meng-*install*
 
 ### Language Packs
-**Language Packs** berfungsi untuk menambah opsi bahasa yang bisa digunakan pada aplikasi forum kita, **Language Packs** dapat diunduh dari (laman *repository* **FluxBB**)[http://fluxbb.org/resources/translations/].
+**Language Packs** berfungsi untuk menambah opsi bahasa yang bisa digunakan pada aplikasi forum kita, **Language Packs** dapat diunduh dari [laman *repository* **FluxBB**](http://fluxbb.org/resources/translations/).
 
 ### Plugins
-**Plugins** di **FluxBB** hanya bisa menambahkan fitur untuk *administrator* (dan *moderator* untuk beberapa **Plugins**) saja, **Plugins** berguna untuk menyederhanakan *task administrator* atau menambah fitur yang tidak bisa disediakan oleh **FluxBB** (karena filosofinya). **Plugins** dapat diunduh dari (laman *repository* **FluxBB**)[https://github.com/fluxbb/plugins] atau bisa juga kita buat sendiri, *template*-nya dapat diakses di (laman *website* **FluxBB**)[https://fluxbb.org/docs/v1.5/plugins]. **Plugins** yang dapat digunakan oleh *administrator* diawali dengan `AP`, sedangkan yang dapat digunakan oleh *administrator* dan *moderator* diawali dengan `AMP`.
+**Plugins** di **FluxBB** hanya bisa menambahkan fitur untuk *administrator* (dan *moderator* untuk beberapa **Plugins**) saja, **Plugins** berguna untuk menyederhanakan *task administrator* atau menambah fitur yang tidak bisa disediakan oleh **FluxBB** (karena filosofinya). **Plugins** dapat diunduh dari [laman *repository* **FluxBB**](https://github.com/fluxbb/plugins) atau bisa juga kita buat sendiri, *template*-nya dapat diakses di [laman *website* **FluxBB**](https://fluxbb.org/docs/v1.5/plugins). **Plugins** yang dapat digunakan oleh *administrator* diawali dengan `AP`, sedangkan yang dapat digunakan oleh *administrator* dan *moderator* diawali dengan `AMP`.
 
 
 ##  Maintenance (opsional)
@@ -123,6 +123,6 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 ## Referensi
 
-1. (FluxBB Website)[https://fluxbb.org/] - FluxBB
-2. (FluxBB Development Repository)[https://github.com/fluxbb/fluxbb] - FluxBB GitHub
-3. (Panduan Pembuatan VM dan *Setting Port-forwarding*)[https://github.com/auriza/komdat-lab/blob/master/p01.md] - GitHub Pak Auriza
+1. [FluxBB Website](https://fluxbb.org/) - FluxBB
+2. [FluxBB Development Repository](https://github.com/fluxbb/fluxbb) - FluxBB GitHub
+3. [Panduan Pembuatan VM dan *Setting Port-forwarding*](https://github.com/auriza/komdat-lab/blob/master/p01.md) - GitHub Pak Auriza
