@@ -1,6 +1,6 @@
 # FluxBB
 
-<h1 align="center"><img src="http://fluxbb.org/files/images/logo_large.png" alt="Logo" width="300"/></h1>
+<h1 align="center"><img src="http://fluxbb.org/files/images/logo_large.png" alt="Logo" width="500"/></h1>
 
 ## Table of Content
 - [Sekilas Tentang](#sekilas-tentang)
@@ -81,7 +81,7 @@ Sebelum meng-*install*, [buat VM](https://github.com/auriza/komdat-lab/blob/mast
   ```
 
 9. Buka laman <http://localhost:8888/fluxbb> untuk melanjutkan proses instalasi **FluxBB**.
-  -
+  ![1](../screenshots/1_intro.png)
   
   
 10. Terakhir kita hapus file instalasi untuk alasan keamanan.
