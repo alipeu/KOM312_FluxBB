@@ -1,6 +1,21 @@
 # FluxBB
 
-<center><img src="http://fluxbb.org/files/images/logo_large.png" alt="Logo" width="300"/></center>
+<h1 align="center"><img src="http://fluxbb.org/files/images/logo_large.png" alt="Logo" width="300"/></h1>
+
+## Table of Content
+- [Sekilas Tentang](#sekilas-tentang)
+- [Instalasi](#instalasi)
+  - [Kebutuhan Sistem](#kebutuhan-sistem)
+  - [Langkah Instalasi](#langkah-instalasi)
+- [Konfigurasi](#konfigurasi)
+  - [Styles](#styles)
+  - [Language Packs](#language-packs)
+  - [Plugins](#plugins)
+- [Maintenance](#maintenance)
+- [Otomasisasi](#otomasisasi)
+- [Cara Pemakaian](#cara-pemakaian)
+- [Pembahasan](#pembahasan)
+- [Referensi](#referensi)
 
 ## Sekilas Tentang
 
@@ -21,7 +36,7 @@ Sebelum meng-*install*, [buat VM](https://github.com/auriza/komdat-lab/blob/mast
 
 1. *Login* ke *server* dengan menggunakan `ssh`, pengguna Windows dapat menggunakan aplikasi [PuTTY](http://www.putty.org/) sebagai alternatif.
   ```
-  ssh alipeu@localhost -p 2222
+  ssh $(whoami)@localhost -p 2222
   ```
 
 2. Pastikan sistem di *server* sudah *up-to-date*.
