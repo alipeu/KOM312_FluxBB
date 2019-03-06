@@ -83,6 +83,23 @@ Sebelum meng-*install*, [buat VM](https://github.com/auriza/komdat-lab/blob/mast
 9. Buka laman <http://localhost:8888/fluxbb> untuk melanjutkan proses instalasi **FluxBB**.
   ![Halaman Awal Instalasi](screenshots/1_intro.png)
   
+  - Tentukan tipe *database* yang ingin digunakan. Karena yang kita *install* sebelumnya **MySQL**, yang muncul di pilihan hanya yang **MySQL**.
+  ![Menentukan Tipe Database](screenshots/2_dbtype.png)
+  
+  - Masukkan *credentials database* yang tadi telah kita buat. Untuk *hostname* kita biarkan saja `localhost`. Jika ingin meng-*install* beberapa **FluxBB** dengan satu *database*, isi *field table prefix* untuk membedakan dengan *database* **FluxBB** yang lain.
+  ![Memasukkan Credentials Database](screenshots/3_dbcred.png)
+  
+  - Masukkan data untuk membuat akun pertama (*administrator*) di forum yang akan kita buat.
+  ![Memasukkan Data Akun Admin](screenshots/4_adminreg.png)
+  
+  - Atur *setting* untuk *board forum* yang akan kita buat, kita bisa mengatur judul *board*, deskripsi *board*, dan URL forum. Kita juga bisa mengubah *setting* ini lagi nanti.
+  ![Setting Board Forum](screenshots/5_boardsetup.png)
+  
+  - Atur *setting* untuk bahasa dan *style* (tema) yang akan kita gunakan untuk forum kita. Secara default bahasa yang tersedia hanya English, tetapi untuk *style* ada beberapa yang sudah *built-in*. Lalu kita klik tombol *Start install*.
+  ![Setting Appearance](screenshots/6_appearance.png)
+  
+  - Jika tidak ada masalah, akan muncul pemberitahuan seperti di bawah ini yang menandakan bahwa **FluxBB** telah berhasil di-*install*.
+  ![Forum Created](screenshots/7_installed.png)
   
 10. Terakhir kita hapus file instalasi untuk alasan keamanan.
   ```
