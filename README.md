@@ -1,6 +1,6 @@
 # FluxBB
 
-<center><img style="width: 100%; max-width: 10px;" src="http://fluxbb.org/files/images/logo_large.png"></center>
+![Logo](http://fluxbb.org/files/images/logo_large.png "Logo" =10x)
 
 ## Sekilas Tentang
 
