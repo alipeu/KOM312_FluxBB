@@ -1,6 +1,6 @@
 # FluxBB
 
-<img src="http://fluxbb.org/files/images/logo_large.png" alt="Logo" width="150"/>
+<center><img src="http://fluxbb.org/files/images/logo_large.png" alt="Logo" width="300"/></center>
 
 ## Sekilas Tentang
 
@@ -115,11 +115,30 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 ## Pembahasan
 
-- Pendapat anda tentang aplikasi web ini
-    - kelebihan
-    - kekurangan
-- Bandingkan dengan aplikasi web lain yang sejenis
+**FluxBB** ditulis dalam bahasa pemrograman `PHP` yang dinamis, cepat, serta didukung oleh banyak *database* dan *web server*. 
+Kelebihan aplikasi forum ini antara lain:
+- Instalasi dan *setting* yang mudah.
+- Ringan dan cepat namun tetap memiliki fitur-fitur yang esensial untuk sebuah aplikasi forum.
+- Gratis dan *open-source*, termasuk modifikasi-modifikasinya.
+- Antarmuka yang *clean* dan mudah dipahami.
+- *Permission system* yang fleksibel.
+- *Moderator tools* yang lengkap dan *powerful*.
+- Banyak modifikasi yang tersedia dari *community*-nya.
 
+Selain memiliki kelebihan, aplikasi ini juga punya kekurangan, antara lain:
+- Fitur-fitur yang tersedia hanya yang "standar" saja.
+- Tampilan antarmuka yang terkesan *plain* dan kurang menarik.
+- Modifikasi **Plugins** yang bisa dibuat hanya sebatas untuk *administrator* dan *moderator* saja.
+- Tidak ada fitur *private message*, tetapi menyediakan *e-mail form*.
+- Secara default tidak mendukung fitur *attachment* dan *third party login*, tetapi ada **Plugins** yang dapat di-*install* untuk menambah fitur tersebut.
+
+Contoh aplikasi forum lainnya adalah **Discourse**, aplikasi ini ditulis dalam bahasa `Ruby` dan `JavaScript`. Jika dibandingkan dengan **FluxBB**, masing-masing memiliki kelebihan dan kekurangan an1tara lain:
+- **Discourse** secara default memiliki fitur yang lebih banyak dibanding **FluxBB**.
+- *Plugin-plugin* yang tersedia di **Discourse** lebih banyak dibanding **FluxBB**.
+- Tampilan antarmuka **Discourse** lebih menarik dibanding **FluxBB**.
+- **Discourse** tidak sepenuhnya gratis, untuk sebagian fitur seperti *storage space*, jumlah staf (*administrator*, *moderator*), dan *plugin* yang dapat digunakan secara gratis terbatas jumlahnya. Sedangkan **FluxBB** sepenuhnya gratis.
+- **FluxBB** lebih ringan dan cepat dari **Discourse**.
+- Instalasi **FluxBB** lebih mudah karena berbasis bahasa `PHP`, instalasi **Discourse** lebih rumit dan memerlukan lebih banyak *requirements* karena berbasis `Ruby` dan `JS`.
 
 ## Referensi
 
