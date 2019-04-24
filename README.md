@@ -12,7 +12,6 @@
   - [Language Packs](#language-packs)
   - [Plugins](#plugins)
 - [Maintenance](#maintenance)
-- [Otomasisasi](#otomasisasi)
 - [Cara Pemakaian](#cara-pemakaian)
 - [Pembahasan](#pembahasan)
 - [Referensi](#referensi)
@@ -178,7 +177,7 @@ Selain memiliki kelebihan, aplikasi ini juga punya kekurangan, antara lain:
 - Tidak ada fitur *private message*, tetapi menyediakan *e-mail form*.
 - Secara default tidak mendukung fitur *attachment* dan *third party login*, tetapi ada **Plugins** yang dapat di-*install* untuk menambah fitur tersebut.
 
-Contoh aplikasi forum lainnya adalah **Discourse**, aplikasi ini ditulis dalam bahasa `Ruby` dan `JavaScript`. Jika dibandingkan dengan **FluxBB**, masing-masing memiliki kelebihan dan kekurangan an1tara lain:
+Contoh aplikasi forum lainnya adalah **Discourse**, aplikasi ini ditulis dalam bahasa `Ruby` dan `JavaScript`. Jika dibandingkan dengan **FluxBB**, masing-masing memiliki kelebihan dan kekurangan antara lain:
 - **Discourse** secara default memiliki fitur yang lebih banyak dibanding **FluxBB**.
 - *Plugin-plugin* yang tersedia di **Discourse** lebih banyak dibanding **FluxBB**.
 - Tampilan antarmuka **Discourse** lebih menarik dibanding **FluxBB**.
@@ -188,6 +187,7 @@ Contoh aplikasi forum lainnya adalah **Discourse**, aplikasi ini ditulis dalam b
 
 ## Referensi
 
-1. [FluxBB Website](https://fluxbb.org/) - FluxBB
+1. [FluxBB Homepage](https://fluxbb.org/) - FluxBB
 2. [FluxBB Development Repository](https://github.com/fluxbb/fluxbb) - FluxBB GitHub
 3. [Panduan Pembuatan VM dan *Setting Port-forwarding*](https://github.com/auriza/komdat-lab/blob/master/p01.md) - GitHub Pak Auriza
+4. [Discourse Homepage](https://www.discourse.org/) - Discourse
